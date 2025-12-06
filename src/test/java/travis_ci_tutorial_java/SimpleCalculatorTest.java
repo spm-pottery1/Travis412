@@ -30,4 +30,10 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.div(6,3),2);
 	}
 	
+	@Test
+	public void testdiv0() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.div(4, 0),0);
+	}
+	
 }
