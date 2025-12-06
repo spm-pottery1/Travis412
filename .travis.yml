@@ -3,8 +3,8 @@ jdk:
  - openjdk8
  - openjdk11
 notifications:
-  email:
+  email: 
     recipients:
-      - ldeng@towson.edu
+      - sppm512hdg@gmail.com
     on_success: always # default: change
     on_failure: always # default: always
